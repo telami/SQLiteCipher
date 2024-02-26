@@ -14,14 +14,14 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "SQLite",
-      url: "https://github.com/telami/SQLiteCipher/releases/download/0.14.1/SQLite.xcframework.zip",
-      checksum: "bce7aaa7cc498b6b0b1a92135ec836d113cc1e709d8d897f2ddfb18d17ceb572"
+      url: "https://github.com/telami/SQLiteCipher/releases/download/0.15.0/SQLite.xcframework.zip",
+      checksum: "3966de0fcc7454f003a74678c8ca8153b357fe3bebd31d20aade6ded106a295f"
     ),
 
     .binaryTarget(
       name: "SQLCipher",
-      url: "https://github.com/telami/SQLiteCipher/releases/download/0.14.1/SQLCipher.xcframework.zip",
-      checksum: "c3a9057738451e20dfc3bcf75e34f806deb72ae282183b02075c922dd4faebc0"
+      url: "https://github.com/telami/SQLiteCipher/releases/download/0.15.0/SQLCipher.xcframework.zip",
+      checksum: "5951891d691c8e54446c79fc7f4a51c65165b3247738c6ee0904479ad7829a5e"
     ),
   ]
 )
